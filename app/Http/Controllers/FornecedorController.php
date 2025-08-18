@@ -12,14 +12,33 @@ class FornecedorController extends Controller
             0 => [
                 'nome' => 'Fornecedor 1',
                 'status' => 'N',
-                'cnpj' => '00.0000.0000'
-                ],
-                1 => [
-                'nome' => 'Fornecedor 2',
+                'cnpj' => '0',
+                'ddd' => '11',//São paulo (SP)
+                'telefone' => '0000-0000'
+            ],
+            1 => [
+                'nome' => 'Fornecedor 1',
                 'status' => 'S',
-                ]
+                'cnpj' => 'null',
+                'ddd' => '85', //Fortaleza(CE)
+                'telefone' => '0000-0000'
+            ],
+            2 => [
+                'nome' => 'Fornecedor 1',
+                'status' => 'S',
+                'cnpj' => 'null',
+                'ddd' => '32',//Juiz de Fora(MG)
+                'telefone' => '0000-0000'
+            ],
+            
         ];
+        
+        $fornecedores = [];
+
+
         return view('app.fornecedor.index', compact('fornecedores'));
         
-    }
-}
+        }
+};
+
+

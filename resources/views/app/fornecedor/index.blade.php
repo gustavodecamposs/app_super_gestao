@@ -6,6 +6,14 @@
 @php 
     /*
     if (isset($variavel)){} //retornar true se a variavel estar definida
+    - ""
+    - 0
+    - 0.0
+    - '0'
+    - null
+    - false
+    - array()
+    - $var
     */
 @endphp
 
