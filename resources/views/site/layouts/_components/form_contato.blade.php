@@ -4,7 +4,7 @@
     @csrf
     <input name="nome" type="text" placeholder="Nome" class="{{ $classe }}">
     <br>
-    <input name="telefone" type="text" placeholder="Telefone" class="{{ $classe }}">
+    <input name="telefone" type="text" placeholder="Telefone" class="{{ $classe }}" {{ $classe }}>
     <br>
     <input name="email" type="text" placeholder="E-mail" class="{{ $classe }}">
     <br>
